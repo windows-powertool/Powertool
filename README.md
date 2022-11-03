@@ -7,14 +7,22 @@ From user prospective most things are useless like Ads, Telemetry which is micro
 Windows powertool help you to Improve speed, remove bloatware, protect privacy, eliminate data collection and more.
 
 ## View Source code
-Windows Powertool Source code :  [tool.windowspowertool.workers.dev](https://tool.windowspowertool.workers.dev)
+Windows Powertool Source code :  [tool.windowpowertool.workers.dev](https://tool.windowpowertool.workers.dev)
 
 ## How to use
 Use the following command in Powershell to start Windows Powertool OR view the source code and use that raw code in powershell.<br />
-it automatically Create a System restore point when you click Optimize. This allow you to revert back completely, if you want. (undo Optimization)  
+it automatically Create a System restore point when you click Optimize. This allow you to revert back completely, if you want. (undo Optimization)<br/>
+For compatibility:
 ```
-iwr -useb tool.windowspowertool.workers.dev | iex
+iwr -useb tool.windowpowertool.workers.dev | iex
 ```
+## Notice
+* This repository is archived and read-only because some people are misusing the Source code of this project.
+* Verification is added. So misuse can be prevented
+* For compatibility, workers.dev is used instead of raw github beacuse github uses TLS version 1.2 and older version of powershell does not support TLS 1.2 and causes errors.  
+Here is the github version anyway:  
+"iwr -useb raw.githubusercontent.com/windows-powertool/Powertool/main/Powertool | iex"
+
 
 ## Main Features
 ### Optimization
@@ -48,11 +56,11 @@ iwr -useb tool.windowspowertool.workers.dev | iex
 2. Restore the system restore point
 
 
-# Known Issues
+## Known Issues
 * Read the Warning carefully before removing OneDrive. if you have enabled and logged in OneDrive then be aware that your desktop files may lose. log out from OneDrive for safer removal.
 * You may experiance slow first or second restart/reboot after apply optimization, which is temporary.
 
-# Knowledge base
+## Knowledge base
 * Removing bloatware does not remove xbox and it related files.
 * Applying Optimization will also enable Quick animation, which can be set to default animation from system setting.
 * Most setting take effects in windows local user, Run individually for other user.
